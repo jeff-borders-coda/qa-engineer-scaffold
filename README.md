@@ -35,4 +35,5 @@ This automation suite was built with NodeJS, Typescript, and Cypress. The [Cypre
 
 ### Notable preconditions
 Node version: 14.18.1
+
 NPM version: 6.14.15
