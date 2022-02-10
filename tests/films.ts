@@ -1,4 +1,4 @@
-import setInitialCookies from "../src/utils";
+import { setInitialCookies } from "../src/utils";
 
 describe('Film landing page', () => {
   before(() => {
@@ -17,8 +17,7 @@ describe('Film landing page', () => {
   });
 
   it('contains a title', () => {
-    cy
-      .get('[data-testid="contentHeading-title"]')
+    cy.get('[data-testid="contentHeading-title"]')
       .should('exist');
   });
 

@@ -1,11 +1,10 @@
-import setInitialCookies from "../src/utils";
+import { setInitialCookies } from "../src/utils";
 
 describe('Home page', () => {
   before(() => {
     setInitialCookies();
-		cy.visit('/');
-
-    cy.scrollTo('bottom');
+		cy.visit('/')
+      .scrollTo('bottom');
 	});
 
   it('contains a navigation menu', () => {
