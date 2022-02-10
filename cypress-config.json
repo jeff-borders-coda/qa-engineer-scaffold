@@ -1,0 +1,16 @@
+{
+  "baseUrl": "https://codacollection.co",
+  "reporter": "mochawesome",
+  "reporterOptions": {
+      "html": false,
+      "json": true,
+      "overwrite": false,
+      "reportDir": "./cypress/reports"
+  },
+  "screenshotOnRunFailure": false,
+  "integrationFolder": "./tests",
+  "testFiles": "**/*.ts",
+  "video": false,
+  "viewportHeight": 660,
+  "viewportWidth": 1280
+}
